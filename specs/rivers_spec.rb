@@ -13,7 +13,7 @@ class RiversTest < MiniTest::Test
     @copper = Fish.new("copper")
     @fin = Fish.new("fin")
 
-    @fish = [@bob, @goldie, @jaws, @copper, @fin]
+    $fish = [@bob, @goldie, @jaws, @copper, @fin]
     @river = River.new("Forth", @fish)
 
 
